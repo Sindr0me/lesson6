@@ -30,7 +30,6 @@ for ($i = 0; $i < count($files_list); $i++){
     <ul>
         <?php
         for ($i = 0; $i < count($jsn_files); $i++) {
-            
             echo "<li><a href='test.php?id=".$i."'>Тест №".$i."</a></li>";
             }
         ?>
